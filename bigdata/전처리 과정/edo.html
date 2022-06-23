@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_6203f018fa4d4c1baae923c15934df65 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_6203f018fa4d4c1baae923c15934df65" ></div>
+        
+</body>
+<script>    
+    
+            var map_6203f018fa4d4c1baae923c15934df65 = L.map(
+                "map_6203f018fa4d4c1baae923c15934df65",
+                {
+                    center: [33.49, 126.535],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_f55e34a58e17482b9f3355dab875ae85 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_6203f018fa4d4c1baae923c15934df65);
+        
+    
+            var polygon_9f97eac2b6b143aca571a79af3f3deb4 = L.polygon(
+                [[33.49924, 126.549462], [33.494659, 126.552294], [33.488575, 126.551436], [33.494802, 126.54105], [33.489076, 126.543797], [33.487358, 126.530586], [33.48206, 126.532896], [33.477407, 126.521481], [33.483492, 126.516588], [33.49065, 126.51882], [33.497951, 126.520708], [33.498094, 126.525601], [33.498094, 126.525601], [33.500099, 126.525086], [33.505395, 126.538304]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_6203f018fa4d4c1baae923c15934df65);
+        
+    
+            polygon_9f97eac2b6b143aca571a79af3f3deb4.bindTooltip(
+                `<div>
+                     <h4><b>이도2동 지역에선 소매업을 추천합니다.</h4></b><br> 창업 비용으로 9200만원이 필요합니다. <br>이용자 수는 205421명이며 해당 지역 소매업 점포 개수는 62개입니다.<br> 예상 매출은 11395242원입니다.
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
