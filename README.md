@@ -19,8 +19,9 @@
 
 ## 실행 화면
 
-<img width="659" alt="image" src="https://github.com/ppdoli123/Text-
-<img width="610" alt="image" src="https://github.com/ppdoli123/Text-Mining/assets/93701796/27657af5-ed67-44ef-9fe0-b38574f325fb">
+<img width="659" alt="image" src="https://github.com/ppdoli123/Text-Mining/assets/93701796/27657af5-ed67-44ef-9fe0-b38574f325fb">
+
+<img width="610" alt="image" src="https://github.com/ppdoli123/Text-
 Mining/assets/93701796/ae4a1d38-b888-47d7-84b6-3bc6baf1c153">
 
 ### ⚙️ 개발 환경
