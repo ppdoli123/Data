@@ -17,17 +17,12 @@
 ## 🕰️ 개발 기간
 * 23.04.06일 - 21.06.14일
 
-## 실행 화면
-
-<img width="659" alt="image" src="https://github.com/ppdoli123/Text-Mining/assets/93701796/27657af5-ed67-44ef-9fe0-b38574f325fb">
-
-<img width="610" alt="image" src="https://github.com/ppdoli123/Text-
-Mining/assets/93701796/ae4a1d38-b888-47d7-84b6-3bc6baf1c153">
 
 ### ⚙️ 개발 환경
--`Android-Studio`
+-`Python`
 
-## 📌 주요 기능
-#### 강력한 보안 기능을 위해 지문인식 로그인을 도입하였습니다.
-#### 알람
-- 로그인에 실패한경우 핸드폰 알람이 가도록 설정하였습니다. 
+## 실행 화면
+
+<img width="654" alt="image" src="https://github.com/ppdoli123/Text-Mining/assets/93701796/a64d5ffc-8140-42e8-8f1a-45b0036ba784">
+
+<img width="659" alt="image" src="https://github.com/ppdoli123/Text-Mining/assets/93701796/27657af5-ed67-44ef-9fe0-b38574f325fb">
